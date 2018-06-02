@@ -1,0 +1,126 @@
+
+body
+{
+  background-image: url('bicycle.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+h1
+{
+  margin-left: 50px;
+  margin-top: 50px;
+  color: white;
+  font-size: 4em;
+  font-family: "Luna";
+
+}
+
+h2
+{
+  margin-left: 50px;
+  color: white;
+  font-size: 2em;
+  font-family: "Luna";
+}
+
+#Download
+{
+  margin-left: 50px;
+
+}
+
+.parallax
+{
+    /* The image used */
+    background-image: url("bicycle.jpg");
+
+    /* Set a specific height */
+    height: 700px;;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro
+{
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+#intro2
+{
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+
+
+#welcome
+{
+  width: 320px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+#personal
+{
+  font-family: fantasy;
+
+
+}
+
+p
+{
+    margin-left: 50px;
+    color: white;
+    font-size: 2em;
+    font-family: "Luna";
+}
+
+ul
+{
+  margin-left: 50px;
+  color: white;
+  font-size: 2em;
+  font-family: "Luna";
+
+}
+
+li
+{
+  padding-bottom: 20px;
+}
+
+
+.content
+{
+  display: flex;
+}
+
+.content > div
+{
+  flex: 1;
+  padding-left: 50px;
+  padding-bottom: 200px;
+}
+
+#closing
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  padding-bottom: 75px;
+}
